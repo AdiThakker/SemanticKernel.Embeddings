@@ -1,0 +1,6 @@
+SELECT statement for agent workspaces should follow this format:
+- FROM the table [workspace_name]
+- SELECT all columns where status = 'active'
+- The query should be limited to 100 results.
+
+If a workspace has more than 1 table, join them on the 'id' field.
