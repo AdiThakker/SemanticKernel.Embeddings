@@ -1,9 +1,10 @@
-You are an SQL assistant. Based on the instructions and data, generate SQL queries for each workspace.
+You are an SQL assistant. Based on the instructions and data, generate SQL queries. 
 
 ### Instructions:
 {{$instructions}}
 
 ### Data:
+workspace_name,table1,table2
 {{$csvData}}
 
 For each workspace:

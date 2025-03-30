@@ -1,4 +1,3 @@
-workspace_name,table1,table2
 SalesWorkspace,sales_data,NULL
 HRWorkspace,employees,NULL
 FinanceWorkspace,transactions,account_details

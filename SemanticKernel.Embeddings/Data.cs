@@ -2,7 +2,7 @@
 
 namespace SemanticKernel.Embeddings;
 
-internal sealed class Artifacts<TKey>
+internal sealed class Data<TKey>
 {
     [VectorStoreRecordKey]
     public required TKey Key { get; set; }
