@@ -2,7 +2,7 @@
 
 namespace SemanticKernel.Embeddings;
 
-internal sealed class Data<TKey>
+public sealed class Data<TKey>
 {
     [VectorStoreRecordKey]
     public required TKey Key { get; set; }
@@ -13,6 +13,6 @@ internal sealed class Data<TKey>
     [VectorStoreRecordData]
     public required string Text { get; set; }
 
-    [VectorStoreRecordVector(1536)]
+    [VectorStoreRecordVector(384)]
     public ReadOnlyMemory<float> TextEmbedding { get; set; }
 }
